@@ -3,6 +3,21 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 .logo {
     color:  #4D5AE5;
 font-family: Raleway, sans-serif;
@@ -11,6 +26,10 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+padding-left: 156px;
+padding-top: 24px;
+padding-bottom: 24px;
+padding-right: 1159px;
 }
 .logo-part {
     color: #2E2F42;
@@ -22,9 +41,26 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
+.ul-nav-link {
+    display: inline-flex;
+    gap: 40px;
+    padding-left: 347px;
+    padding-right: 832px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .nav-link:hover,
 .nav-link:focus{
     color: #404BBF;
+}
+.ul-address-link {
+    display: inline-flex;
+    gap: 40px;
+    padding-left: 940px;
+    padding-right: 156px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    flex-wrap: wrap-reverse;
 }
 .address {
     font-style: normal;
