@@ -25,7 +25,11 @@ ul, ol {
     display: flex;
     align-items: center;
 }
-.container-section-two {
+.container-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
     
 }
 header {
@@ -46,10 +50,12 @@ margin-right: 76px
 }
 .nav-link {
     color: #2E2F42;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; 
-letter-spacing: 0.02em;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .ul-nav-link {
     display: flex;
@@ -103,6 +109,8 @@ letter-spacing: 0.02em;
     background-color: #2E2F42;
     padding-top: 188px;
     bottom: 188px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .headline {
     font-weight: 700;
@@ -143,6 +151,7 @@ letter-spacing: 0.02em;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 72px;
   }
 .section-two {
     padding-top: 120px;
@@ -179,6 +188,7 @@ letter-spacing: 0.02em;
    text-align: center;
    color: #2e2f42;
    text-transform: capitalize;
+   margin-bottom: 72px;
 }
 .name-specialist {
     font-weight: 500;
@@ -217,6 +227,8 @@ letter-spacing: 0.02em;
 .ul-list-images {
     display: flex;
     gap: 24px; 
+    flex-wrap: wrap; 
+    row-gap: 48px;
 }
 .h-headline-portfolio {
     font-weight: 700;
@@ -286,4 +298,6 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
