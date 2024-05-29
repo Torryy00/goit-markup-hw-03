@@ -29,7 +29,6 @@ ul, ol {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
     
 }
 header {
@@ -151,7 +150,6 @@ margin-right: 76px
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 72px;
   }
 .section-two {
     padding-top: 120px;
@@ -227,8 +225,7 @@ margin-right: 76px
 .ul-list-images {
     display: flex;
     gap: 24px; 
-    flex-wrap: wrap; 
-    row-gap: 48px;
+    flex-wrap: wrap;
 }
 .h-headline-portfolio {
     font-weight: 700;
@@ -238,6 +235,7 @@ margin-right: 76px
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .headline-portfolio {
     font-weight: 500;
@@ -246,20 +244,20 @@ margin-right: 76px
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 .section-headline-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
 
 }
-.li-images-portfolio {
+.ul-headline-portfolio {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
     width: calc((100% - 48px) / 3);
 }
-
 .title-portfolio {
     font-weight: 400;
     font-size: 16px;
