@@ -12,6 +12,9 @@ ul, ol {
     margin-bottom: 0;
     padding-left: 0;
 }
+img {
+    display: block;
+}
 .container {
     width: 1158px;
     padding-left: 15px;
@@ -71,11 +74,6 @@ margin-right: 76px
 .ul-address-link {
     display: flex;
     gap: 40px;
-    padding-left: 940px;
-    padding-right: 156px;
-    padding-left: 24px;
-    padding-bottom: 24px;
-    flex-wrap: wrap-reverse;
 }
 .address {
     font-style: normal;
@@ -85,6 +83,9 @@ margin-right: 76px
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 .address-link:hover,
 .address-link:focus {
@@ -250,6 +251,9 @@ margin-right: 76px
     padding-top: 120px;
     padding-bottom: 120px;
 
+}
+.li-images-portfolio {
+    width: calc((100% - 48px) / 3); 
 }
 .ul-headline-portfolio {
     display: flex;
